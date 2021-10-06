@@ -10,4 +10,5 @@ document.addEventListener ('DOMContentLoaded', function (event) {
   grabDiv.addEventListener ('mouseout', () => {
     grabDiv.classList.remove ('orb');
   });
+  console.log (event);
 });
