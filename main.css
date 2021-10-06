@@ -1,7 +1,7 @@
 .orb {
-  background-color: #07eeee !important;
+  background-color: #9901ff !important;
   border-radius: 50%;
-  filter: blur(5px);
+  box-shadow: 0 0 8px 8px #9901ff inset;
 }
 
 .filter {
