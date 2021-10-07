@@ -15,11 +15,11 @@ grabDiv.addEventListener ('mouseout', () => {
 const grabDiv2 = document.getElementById ('orb2');
 
 grabDiv2.addEventListener ('mouseover', () => {
-  grabDiv.classList.add ('orb');
+  grabDiv2.classList.add ('orb');
   console.log ('mousing over!');
 });
 
 grabDiv2.addEventListener ('mouseout', () => {
-  grabDiv.classList.remove ('orb');
+  grabDiv2.classList.remove ('orb');
   console.log ('mousing out');
 });
