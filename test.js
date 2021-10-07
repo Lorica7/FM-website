@@ -25,6 +25,8 @@ getTarget.addEventListener ('mouseout', () => {
   console.log ('mousing out');
 });
 
+/*  THREE 3333333333333333333333333333 **************/
+
 const getTarget3 = document.getElementById ('target-three');
 
 getTarget3.addEventListener ('mouseover', () => {
@@ -34,5 +36,18 @@ getTarget3.addEventListener ('mouseover', () => {
 
 getTarget3.addEventListener ('mouseout', () => {
   getTarget3.classList.remove ('orb');
+  console.log ('mousing out');
+});
+
+const getTarget4 = document.querySelector ('.target-four');
+const orbHolder = document.getElementById ('orb-holder');
+
+getTarget4.addEventListener ('mouseover', () => {
+  orbHolder.classList.add ('orb');
+  console.log ('mousing over!');
+});
+
+getTarget4.addEventListener ('mouseout', () => {
+  orbHolder.classList.remove ('orb');
   console.log ('mousing out');
 });
