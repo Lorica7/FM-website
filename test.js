@@ -17,6 +17,7 @@ const getTarget = document.getElementById ('target');
 
 getTarget.addEventListener ('mouseenter', () => {
   grabDiv2.classList.add ('orb');
+  console.log ('mousing over!');
 });
 
 getTarget.addEventListener ('mouseleave', () => {
