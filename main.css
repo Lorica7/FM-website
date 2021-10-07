@@ -1,7 +1,14 @@
 .orb {
-  background-color: #9901ff !important;
+  background: radial-gradient(
+    circle,
+    rgba(153, 1, 255, 0.1) 11%,
+    rgba(153, 1, 255, 0.2) 20%,
+    rgba(153, 1, 255, 0.3) 27%,
+    rgba(153, 1, 255, 0.35) 43%,
+    rgba(153, 1, 255, 0.5) 72%
+  );
   border-radius: 50%;
-  box-shadow: 0 0 8px 8px #9901ff inset;
+  box-shadow: 0px 0px 10px 10px rgba(153, 1, 255, 0.4);
 }
 
 .filter {
