@@ -15,12 +15,12 @@ grabDiv.addEventListener ('mouseout', () => {
 const grabDiv2 = document.getElementById ('second');
 const getTarget = document.getElementById ('target');
 
-getTarget.addEventListener ('mouseenter', () => {
+getTarget.addEventListener ('mouseover', () => {
   grabDiv2.classList.add ('orb');
   console.log ('mousing over!');
 });
 
-getTarget.addEventListener ('mouseleave', () => {
+getTarget.addEventListener ('mouseout', () => {
   grabDiv2.classList.remove ('orb');
   console.log ('mousing out');
 });
