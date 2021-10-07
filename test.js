@@ -13,8 +13,9 @@ grabDiv.addEventListener ('mouseout', () => {
 });
 
 const grabDiv2 = document.getElementById ('second');
+const getTarget = document.getElementById ('target');
 
-grabDiv2.addEventListener ('mouseover', () => {
+getTarget.addEventListener ('mouseover', () => {
   grabDiv2.classList.add ('orb');
   console.log ('mousing over!');
 });
