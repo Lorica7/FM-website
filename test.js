@@ -17,11 +17,16 @@ grabDiv.addEventListener ('mouseout', () => {
 
 const grabDiv2 = document.getElementById ('second');
 const getTarget = document.getElementById ('target');
-const getFuzz = document.querySelectorAll ('pb');
+const getFuzz = document.querySelectorAll ('brookfield');
+const getFuzz2 = document.querySelectorAll ('westfield');
+const getFuzz3 = document.querySelectorAll ('centennial');
 
 getTarget.addEventListener ('mouseover', () => {
   grabDiv2.classList.add ('orb');
-  getFuzz.classList.add ('fuzz');
+  getFuzz.classList.add ('image-fuzz');
+  getFuzz2.classList.add ('image-fuzz');
+  getFuzz3.classList.add ('image-fuzz');
+
   console.log ('mousing over!');
 });
 
@@ -50,11 +55,11 @@ getTarget3.addEventListener ('mouseout', () => {
 
 const getTarget4 = document.querySelector ('.target-four');
 const orbHolder = document.getElementById ('orb-holder');
-const getRD = document.getElementById ('rand');
+// const getRD = document.getElementById ('rand');
 
 getTarget4.addEventListener ('mouseover', () => {
   orbHolder.classList.add ('orb');
-  getRD.classList.add ('fuzz');
+  // getRD.classList.add ('fuzz');
   console.log ('mousing over!');
 });
 
