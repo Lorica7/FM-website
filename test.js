@@ -10,13 +10,13 @@ grabDiv.addEventListener ('mouseover', () => {
 });
 
 grabDiv.addEventListener ('mouseout', () => {
-  grabDiv.classList.remove ('orb');
+  grabCircle.classList.remove ('orb');
   console.log ('mousing out');
 });
 
 /***************Two 22222222222  Real Estate Group   */
 
-const grabDiv2 = document.getElementById ('second');
+const grabDiv2 = document.getElementById ('circle2');
 const getTarget = document.getElementById ('target');
 // const getFuzz = document.querySelectorAll ('brookfield');
 // const getFuzz2 = document.querySelectorAll ('westfield');
