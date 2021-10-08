@@ -17,7 +17,7 @@ grabDiv.addEventListener ('mouseout', () => {
 
 const grabDiv2 = document.getElementById ('second');
 const getTarget = document.getElementById ('target');
-const getFuzz = document.querySelectorAll ('pb');
+const getFuzz = document.querySelector ('pb');
 
 getTarget.addEventListener ('mouseover', () => {
   grabDiv2.classList.add ('orb');
@@ -50,9 +50,11 @@ getTarget3.addEventListener ('mouseout', () => {
 
 const getTarget4 = document.querySelector ('.target-four');
 const orbHolder = document.getElementById ('orb-holder');
+const getRD = document.getElementById ('rand');
 
 getTarget4.addEventListener ('mouseover', () => {
   orbHolder.classList.add ('orb');
+  getRD.classList.add ('fuzz');
   console.log ('mousing over!');
 });
 
