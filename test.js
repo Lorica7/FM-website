@@ -17,7 +17,7 @@ grabDiv.addEventListener ('mouseout', () => {
 
 const grabDiv2 = document.getElementById ('second');
 const getTarget = document.getElementById ('target');
-const getFuzz = document.getElementById ('grid-eight');
+const getFuzz = document.querySelectorAll ('pb');
 
 getTarget.addEventListener ('mouseover', () => {
   grabDiv2.classList.add ('orb');
