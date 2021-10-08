@@ -6,12 +6,10 @@ const grabCircle = document.getElementById ('circle');
 
 grabDiv.addEventListener ('mouseover', () => {
   grabCircle.classList.add ('orb');
-  console.log ('mousing over!');
 });
 
 grabDiv.addEventListener ('mouseout', () => {
   grabCircle.classList.remove ('orb');
-  console.log ('mousing out');
 });
 
 /***************Two 22222222222  Real Estate Group   */
@@ -27,44 +25,35 @@ getTarget.addEventListener ('mouseover', () => {
   // getFuzz.classList.add ('image-fuzz');
   // getFuzz2.classList.add ('image-fuzz');
   // getFuzz3.classList.add ('image-fuzz');
-
-  console.log ('mousing over!');
 });
 
 getTarget.addEventListener ('mouseout', () => {
   grabDiv2.classList.remove ('orb');
-  getOrb.classList.remove ('fuzz');
-
-  console.log ('mousing out');
+  // getOrb.classList.remove ('fuzz');
 });
 
 /*  THREE 3333333333333333333333333333 **************/
 
-const getTarget3 = document.getElementById ('target-three');
+const getTarget3 = document.getElementById ('orb3');
+const getThree = document.getElementById ('circle-three');
 
 getTarget3.addEventListener ('mouseover', () => {
-  getTarget3.classList.add ('orb');
-  console.log ('mousing over!');
+  getThree.classList.add ('orb');
 });
 
 getTarget3.addEventListener ('mouseout', () => {
-  getTarget3.classList.remove ('orb');
-  console.log ('mousing out');
+  getThree.classList.remove ('orb');
 });
 
 /* ************************ Four ( R&D) **********************/
 
-const getTarget4 = document.querySelector ('.target-four');
+const getTarget4 = document.getElementById ('.target-four');
 const orbHolder = document.getElementById ('orb-holder');
-// const getRD = document.getElementById ('rand');
 
 getTarget4.addEventListener ('mouseover', () => {
   orbHolder.classList.add ('orb');
-  // getRD.classList.add ('fuzz');
-  console.log ('mousing over!');
 });
 
 getTarget4.addEventListener ('mouseout', () => {
   orbHolder.classList.remove ('orb');
-  console.log ('mousing out');
 });
