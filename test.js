@@ -1,10 +1,11 @@
 console.log ('hi there');
 
 /* ****** Product Vendor Services *****************************/
-const grabDiv = document.getElementById ('orb');
+const grabDiv = document.getElementById ('pvs-border');
+const grabCircle = document.getElementById ('circle');
 
 grabDiv.addEventListener ('mouseover', () => {
-  grabDiv.classList.add ('orb');
+  grabCircle.classList.add ('orb');
   console.log ('mousing over!');
 });
 
@@ -17,15 +18,15 @@ grabDiv.addEventListener ('mouseout', () => {
 
 const grabDiv2 = document.getElementById ('second');
 const getTarget = document.getElementById ('target');
-const getFuzz = document.querySelectorAll ('brookfield');
-const getFuzz2 = document.querySelectorAll ('westfield');
-const getFuzz3 = document.querySelectorAll ('centennial');
+// const getFuzz = document.querySelectorAll ('brookfield');
+// const getFuzz2 = document.querySelectorAll ('westfield');
+// const getFuzz3 = document.querySelectorAll ('centennial');
 
 getTarget.addEventListener ('mouseover', () => {
   grabDiv2.classList.add ('orb');
-  getFuzz.classList.add ('image-fuzz');
-  getFuzz2.classList.add ('image-fuzz');
-  getFuzz3.classList.add ('image-fuzz');
+  // getFuzz.classList.add ('image-fuzz');
+  // getFuzz2.classList.add ('image-fuzz');
+  // getFuzz3.classList.add ('image-fuzz');
 
   console.log ('mousing over!');
 });
