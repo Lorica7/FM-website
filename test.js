@@ -1,5 +1,6 @@
 console.log ('hi there');
 
+/* ****** Product Vendor Services *****************************/
 const grabDiv = document.getElementById ('orb');
 
 grabDiv.addEventListener ('mouseover', () => {
@@ -12,16 +13,22 @@ grabDiv.addEventListener ('mouseout', () => {
   console.log ('mousing out');
 });
 
+/***************Two 22222222222  Real Estate Group   */
+
 const grabDiv2 = document.getElementById ('second');
 const getTarget = document.getElementById ('target');
+const getOrb = document.getElementById ('real-estate-group');
 
 getTarget.addEventListener ('mouseover', () => {
   grabDiv2.classList.add ('orb');
+  getOrb.classList.add ('fuzz');
   console.log ('mousing over!');
 });
 
 getTarget.addEventListener ('mouseout', () => {
   grabDiv2.classList.remove ('orb');
+  getOrb.classList.remove ('fuzz');
+
   console.log ('mousing out');
 });
 
@@ -38,6 +45,8 @@ getTarget3.addEventListener ('mouseout', () => {
   getTarget3.classList.remove ('orb');
   console.log ('mousing out');
 });
+
+/* ************************ Four ( R&D) **********************/
 
 const getTarget4 = document.querySelector ('.target-four');
 const orbHolder = document.getElementById ('orb-holder');

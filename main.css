@@ -14,3 +14,36 @@
 .filter {
   filter: none !important;
 }
+
+/* 
+    @media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
+      #pvg {
+       position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%)
+      }
+
+    
+
+      #rand {
+            position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%)
+      }
+
+      #fef {
+             position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%)
+      }
+
+      #real-estate-group {
+          position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%)
+      }
+    } */
