@@ -17,11 +17,11 @@ grabDiv.addEventListener ('mouseout', () => {
 
 const grabDiv2 = document.getElementById ('second');
 const getTarget = document.getElementById ('target');
-const getOrb = document.getElementById ('real-estate-group');
+const getFuzz = document.getElementById ('grid-eight');
 
 getTarget.addEventListener ('mouseover', () => {
   grabDiv2.classList.add ('orb');
-  getOrb.classList.add ('fuzz');
+  getFuzz.classList.add ('fuzz');
   console.log ('mousing over!');
 });
 

@@ -15,6 +15,10 @@
   filter: none !important;
 }
 
+.fuzz {
+  box-shadow: 0px 0px 100px 100px rgba(153, 1, 255, 0.6);
+}
+
 /* 
     @media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
       #pvg {
