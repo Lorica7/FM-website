@@ -39,6 +39,7 @@ const getThree = document.getElementById ('circle-three');
 
 getTarget3.addEventListener ('mouseover', () => {
   getThree.classList.add ('orb');
+  console.log ('three here');
 });
 
 getTarget3.addEventListener ('mouseout', () => {
@@ -52,6 +53,7 @@ const orbHolder = document.getElementById ('orb-holder');
 
 getTarget4.addEventListener ('mouseover', () => {
   orbHolder.classList.add ('orb');
+  console.log ('Four here');
 });
 
 getTarget4.addEventListener ('mouseout', () => {
