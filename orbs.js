@@ -1,11 +1,9 @@
-console.log ('latest');
-
 /* ****** Product Vendor Services *****************************/
 const grabDiv = document.getElementById ('pvs-border');
 const grabCircle = document.getElementById ('circle');
 
 grabDiv.addEventListener ('mouseover', () => {
-  grabCircle.classList.remove ('orb');
+  grabCircle.classList.add ('orb');
 });
 
 grabDiv.addEventListener ('mouseout', () => {
@@ -23,7 +21,6 @@ getTarget.addEventListener ('mouseover', () => {
 
 getTarget.addEventListener ('mouseout', () => {
   grabDiv2.classList.remove ('orb');
-  // getOrb.classList.remove ('fuzz');
 });
 
 /*  THREE 3333333333333333333333333333 **************/
