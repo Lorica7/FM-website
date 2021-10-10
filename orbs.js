@@ -1,5 +1,13 @@
 console.log ('hi there');
 
+function addOrb (divName) {
+  divName.classList.add ('orb');
+}
+
+function removeOrb (divName2) {
+  divName2.classList.remove ('orb');
+}
+
 /* ****** Product Vendor Services *****************************/
 const grabDiv = document.getElementById ('pvs-border');
 const grabCircle = document.getElementById ('circle');
