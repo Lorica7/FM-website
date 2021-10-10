@@ -48,7 +48,7 @@ getTarget3.addEventListener ('mouseout', () => {
 
 /* ************************ Four ( R&D) **********************/
 
-const getTarget4 = document.getElementById ('.target-four');
+const getTarget4 = document.getElementById ('target-four');
 const orbHolder = document.getElementById ('orb-holder');
 
 getTarget4.addEventListener ('mouseover', () => {

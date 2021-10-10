@@ -54,16 +54,16 @@ getTarget4.addEventListener ('mouseout', () => {
   orbHolder.classList.remove ('orb');
 });
 
-const getTarget4 = document.getElementById ('target-four');
-const orbHolder = document.getElementById ('orb-holder');
-
 /**************FIVE******************** */
 
-getTarget4.addEventListener ('mouseover', () => {
-  orbHolder.classList.add ('orb');
+const getTarget5 = document.getElementById ('target-five');
+const orbHolder2 = document.getElementById ('orb-holder-two');
+
+getTarget5.addEventListener ('mouseover', () => {
+  orbHolder2.classList.add ('orb');
   console.log ('Four here');
 });
 
-getTarget4.addEventListener ('mouseout', () => {
-  orbHolder.classList.remove ('orb');
+getTarget5.addEventListener ('mouseout', () => {
+  orbHolder2.classList.remove ('orb');
 });
