@@ -1,19 +1,12 @@
 console.log ('latest');
 
-const addingOrb = function (divName) {
-  divName.classList.add ('orb');
-  console.log ('adding circle');
-};
-
-const removeOrb = function (divName2) {
-  divName2.classList.remove ('orb');
-};
-
 /* ****** Product Vendor Services *****************************/
 const grabDiv = document.getElementById ('pvs-border');
 const grabCircle = document.getElementById ('circle');
 
-grabDiv.addEventListener ('mouseover', addingOrb (grabCircle));
+grabDiv.addEventListener ('mouseout', () => {
+  grabCircle.classList.remove ('orb');
+});
 
 grabDiv.addEventListener ('mouseout', () => {
   grabCircle.classList.remove ('orb');
