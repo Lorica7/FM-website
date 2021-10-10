@@ -1,4 +1,4 @@
-console.log ('latest code is loading');
+console.log ('latest');
 
 const addingOrb = function (divName) {
   divName.classList.add ('orb');
