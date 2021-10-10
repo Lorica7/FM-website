@@ -2,6 +2,7 @@ console.log ('hi there');
 
 function addOrb (divName) {
   divName.classList.add ('orb');
+  console.log ('adding circle');
 }
 
 function removeOrb (divName2) {
