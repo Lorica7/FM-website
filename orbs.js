@@ -12,9 +12,7 @@ function removeOrb (divName2) {
 const grabDiv = document.getElementById ('pvs-border');
 const grabCircle = document.getElementById ('circle');
 
-grabDiv.addEventListener ('mouseover', () => {
-  grabCircle.classList.add ('orb');
-});
+grabDiv.addEventListener ('mouseover', addOrb (grabCircle));
 
 grabDiv.addEventListener ('mouseout', () => {
   grabCircle.classList.remove ('orb');
