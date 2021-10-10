@@ -4,7 +4,7 @@ console.log ('latest');
 const grabDiv = document.getElementById ('pvs-border');
 const grabCircle = document.getElementById ('circle');
 
-grabDiv.addEventListener ('mouseout', () => {
+grabDiv.addEventListener ('mouseover', () => {
   grabCircle.classList.remove ('orb');
 });
 
@@ -42,8 +42,22 @@ getTarget3.addEventListener ('mouseout', () => {
 
 /* ************************ Four ( R&D) **********************/
 
-const getTarget4 = document.getElementById ('.target-four');
+const getTarget4 = document.getElementById ('target-four');
 const orbHolder = document.getElementById ('orb-holder');
+
+getTarget4.addEventListener ('mouseover', () => {
+  orbHolder.classList.add ('orb');
+  console.log ('Four here');
+});
+
+getTarget4.addEventListener ('mouseout', () => {
+  orbHolder.classList.remove ('orb');
+});
+
+const getTarget4 = document.getElementById ('target-four');
+const orbHolder = document.getElementById ('orb-holder');
+
+/**************FIVE******************** */
 
 getTarget4.addEventListener ('mouseover', () => {
   orbHolder.classList.add ('orb');
