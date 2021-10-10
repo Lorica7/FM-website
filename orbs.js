@@ -1,13 +1,13 @@
 console.log ('latest code is loading');
 
-function addOrb (divName) {
+const addingOrb = function (divName) {
   divName.classList.add ('orb');
   console.log ('adding circle');
-}
+};
 
-function removeOrb (divName2) {
+const removeOrb = function (divName2) {
   divName2.classList.remove ('orb');
-}
+};
 
 /* ****** Product Vendor Services *****************************/
 const grabDiv = document.getElementById ('pvs-border');
@@ -23,15 +23,9 @@ grabDiv.addEventListener ('mouseout', () => {
 
 const grabDiv2 = document.getElementById ('circle2');
 const getTarget = document.getElementById ('target');
-// const getFuzz = document.querySelectorAll ('brookfield');
-// const getFuzz2 = document.querySelectorAll ('westfield');
-// const getFuzz3 = document.querySelectorAll ('centennial');
 
 getTarget.addEventListener ('mouseover', () => {
   grabDiv2.classList.add ('orb');
-  // getFuzz.classList.add ('image-fuzz');
-  // getFuzz2.classList.add ('image-fuzz');
-  // getFuzz3.classList.add ('image-fuzz');
 });
 
 getTarget.addEventListener ('mouseout', () => {
