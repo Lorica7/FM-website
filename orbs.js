@@ -62,32 +62,18 @@ getTarget5.addEventListener ('mouseout', () => {
   getCircle5.classList.remove ('orb');
 });
 
-// const pvg = document.querySelectorAll ('.purple-back');
-
-// pvg.addEventListener ('mouseover', () => {
-//   grabCircle.classList.add ('orb');
-// });
-
-// pvg.addEventListener ('mouseout', () => {
-//   grabCircle.classList.remove ('orb');
-// });
-
-const erp = document.getElementById ('erp');
-
-erp.addEventListener ('mouseover', () => {
-  grabCircle.classList.add ('orb');
-  document.geteElementById ('pvs-icon').style.display = 'none';
-  console.log ('working');
-});
-
-erp.addEventListener ('mouseout', () => {
-  grabCircle.classList.remove ('orb');
-});
-
 const getClass = document.querySelectorAll ('.purple-back');
 
-getClass.addEventListener ('mouseover', () => {
-  grabCircle.classList.add ('orb');
-  document.geteElementById ('pvs-icon').style.display = 'none';
-  console.log ('working');
+getClass.forEach (item => {
+  item.addEventListener ('mouseover', () => {
+    grabCircle.classList.add ('orb');
+    document.getElementById ('pvs-icon').style.display = 'none';
+  });
+});
+
+getClass.forEach (item => {
+  item.addEventListener ('mouseout', () => {
+    grabCircle.classList.remove ('orb');
+    document.getElementById ('pvs-icon').style.display = 'block';
+  });
 });
