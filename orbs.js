@@ -62,12 +62,22 @@ getTarget5.addEventListener ('mouseout', () => {
   getCircle5.classList.remove ('orb');
 });
 
-const pvg = document.querySelectorAll ('.purple-back');
+// const pvg = document.querySelectorAll ('.purple-back');
 
-pvg.addEventListener ('mouseover', () => {
+// pvg.addEventListener ('mouseover', () => {
+//   grabCircle.classList.add ('orb');
+// });
+
+// pvg.addEventListener ('mouseout', () => {
+//   grabCircle.classList.remove ('orb');
+// });
+
+const erp = document.getElementById ('erp');
+
+erp.addEventListener ('mouseover', () => {
   grabCircle.classList.add ('orb');
 });
 
-pvg.addEventListener ('mouseout', () => {
+erp.addEventListener ('mouseover', () => {
   grabCircle.classList.remove ('orb');
 });
