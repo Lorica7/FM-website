@@ -43,7 +43,6 @@ const getCircle4 = document.getElementById ('circle-four');
 
 getTarget4.addEventListener ('mouseover', () => {
   getCircle4.classList.add ('orb');
-  console.log ('Four here');
 });
 
 getTarget4.addEventListener ('mouseout', () => {
@@ -57,7 +56,6 @@ const getCircle5 = document.getElementById ('circle-five');
 
 getTarget5.addEventListener ('mouseover', () => {
   getCircle5.classList.add ('orb');
-  console.log ('Four here');
 });
 
 getTarget5.addEventListener ('mouseout', () => {
@@ -65,3 +63,11 @@ getTarget5.addEventListener ('mouseout', () => {
 });
 
 const pvg = document.querySelectorAll ('purple-back');
+
+pvg.addEventListener ('mouseover', () => {
+  grabCircle.classList.add ('orb');
+});
+
+pvg.addEventListener ('mouseout', () => {
+  grabCircle.classList.remove ('orb');
+});
