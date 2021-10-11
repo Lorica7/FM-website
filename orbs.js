@@ -76,6 +76,7 @@ const erp = document.getElementById ('erp');
 
 erp.addEventListener ('mouseover', () => {
   grabCircle.classList.add ('orb');
+  console.log ('working');
 });
 
 erp.addEventListener ('mouseover', () => {
