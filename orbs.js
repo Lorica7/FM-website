@@ -79,6 +79,6 @@ erp.addEventListener ('mouseover', () => {
   console.log ('working');
 });
 
-erp.addEventListener ('mouseover', () => {
+erp.addEventListener ('mouseout', () => {
   grabCircle.classList.remove ('orb');
 });
