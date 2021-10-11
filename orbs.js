@@ -76,9 +76,18 @@ const erp = document.getElementById ('erp');
 
 erp.addEventListener ('mouseover', () => {
   grabCircle.classList.add ('orb');
+  document.geteElementById ('pvs-icon').style.display = 'none';
   console.log ('working');
 });
 
 erp.addEventListener ('mouseout', () => {
   grabCircle.classList.remove ('orb');
+});
+
+const getClass = document.querySelectorAll ('.purple-back');
+
+getClass.addEventListener ('mouseover', () => {
+  grabCircle.classList.add ('orb');
+  document.geteElementById ('pvs-icon').style.display = 'none';
+  console.log ('working');
 });
