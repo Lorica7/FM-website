@@ -10,7 +10,7 @@ grabTarget.addEventListener ('mouseout', () => {
   grabCircle.classList.remove ('orb');
 });
 
-/***************Two 22222222222  Real Estate Group   */
+/*** 2222222 Real Estate Group   */
 const grabTarget2 = document.getElementById ('target');
 
 const grabCircle2 = document.getElementById ('circle2');
@@ -23,7 +23,7 @@ grabTarget2.addEventListener ('mouseout', () => {
   grabCircle2.classList.remove ('orb');
 });
 
-/*  THREE 3333333333333333333333333333 **************/
+/*   3333333333  Front End Fit **************/
 
 const getTarget3 = document.getElementById ('target-three');
 const getCircle3 = document.getElementById ('circle-three');
@@ -49,7 +49,7 @@ getTarget4.addEventListener ('mouseout', () => {
   getCircle4.classList.remove ('orb');
 });
 
-/**************FIVE******************** */
+/**************FIVE         RETAILER    ******************** */
 
 const getTarget5 = document.getElementById ('target-five');
 const getCircle5 = document.getElementById ('circle-five');
@@ -62,7 +62,7 @@ getTarget5.addEventListener ('mouseout', () => {
   getCircle5.classList.remove ('orb');
 });
 
-const pvg = document.querySelectorAll ('purple-back');
+const pvg = document.querySelectorAll ('.purple-back');
 
 pvg.addEventListener ('mouseover', () => {
   grabCircle.classList.add ('orb');
