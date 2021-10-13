@@ -89,6 +89,16 @@
   animation-duration: 1.5s;
 }
 
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.text {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 @-webkit-keyframes fade {
   from {
     opacity: 0.4;
