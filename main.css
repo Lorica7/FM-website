@@ -182,3 +182,26 @@
     opacity: 1;
   }
 }
+
+.slide-up {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: -900px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: white;
+  opacity: 0;
+  z-index: 500;
+  pointer-events: none;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 1px, rgba(0, 0, 0, 0.15) 0 5px 15px;
+}
+
+.moved {
+  background-color: white;
+  opacity: 1;
+  pointer-events: all;
+  right: 0px;
+  transition: right 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
