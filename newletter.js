@@ -1,6 +1,6 @@
 window.onscroll = function (ev) {
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-    setTimeout (classChanger, 2500);
+    setTimeout (classChanger, 1500);
     console.log (ev);
     console.log ('no way!!!');
   }
