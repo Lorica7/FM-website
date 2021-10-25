@@ -7,6 +7,5 @@ window.onscroll = function (ev) {
 };
 
 let classChanger = function () {
-  console.log ('no way!!!');
   document.getElementById ('banner1').classList.add ('moved');
 };
